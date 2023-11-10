@@ -11,7 +11,7 @@
     &--is-hidden {
         background-color: transparent;
 
-        .header {
+        .header, .play {
             &__logo, &__links__item:first-child {
                 opacity: 0;
                 visibility: hidden;
@@ -27,6 +27,7 @@
         .play{
             width: 24px;
             margin-bottom: 5.5px;
+            
         }
 
         @media (max-width: 768px) {
